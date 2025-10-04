@@ -60,30 +60,36 @@ msf > db_nmap 192.168.56.101/24
 Search is a powerful command in Metasploit that you can use to find what you want to locate. 
 msf >search name:Microsoft type:exploit
 ## OUTPUT:
-<img width="1164" height="828" alt="Screenshot 2025-09-29 112648" src="https://github.com/user-attachments/assets/9c904b69-6bef-48bf-a889-4eb316f7aee3" />
+
+<img width="642" height="560" alt="image" src="https://github.com/user-attachments/assets/779572b6-66d6-4248-b611-1d83bb998053" />
 
 The info command provides information regarding a module or platform,
 ## OUTPUT:
-<img width="1157" height="831" alt="Screenshot 2025-09-29 112708" src="https://github.com/user-attachments/assets/89785615-33c4-4c54-8973-b9d70ad05bb2" />
+
+<img width="1095" height="563" alt="image" src="https://github.com/user-attachments/assets/17817e9a-b9c1-4284-9447-8f2452141fdd" />
+
 
 ## MYSQL ENUMERATION
 Find the IP address of the Metasploitable machine first. Then, use the db_nmap command in msfconsole with Nmap flags to scan the MySQL database at 3306 port.
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
 ## OUTPUT:
 
-<img width="1162" height="322" alt="Screenshot 2025-09-29 112725" src="https://github.com/user-attachments/assets/e09e4ac1-8fc7-4ded-80b9-4f8be02ba32e" />
+<img width="862" height="153" alt="image" src="https://github.com/user-attachments/assets/fbd0729e-1271-4f8d-a815-d88f1db61ff8" />
 
 Use the search option to look for an auxiliary module to scan and enumerate the MySQL database.
 search type:auxiliary mysql
 ## OUTPUT:
-<img width="1166" height="834" alt="Screenshot 2025-09-29 112743" src="https://github.com/user-attachments/assets/992692ec-ccdb-4214-8635-657997d2ea7d" />
+
+<img width="1098" height="472" alt="image" src="https://github.com/user-attachments/assets/3d94e5ad-0612-45b3-bc34-642615d3ed30" />
+
 
 use the auxiliary/scanner/mysql/mysql_version module by typing the module name or associated number to scan MySQL version details.
 use 11
 Or:
 use auxiliary/scanner/mysql/mysql_version
 ## OUTPUT:
-<img width="722" height="219" alt="image" src="https://github.com/user-attachments/assets/18bf7c6f-9b2f-4b4c-947e-fcfa3b272bac" />
+<img width="1088" height="427" alt="image" src="https://github.com/user-attachments/assets/6fa9b14f-a23c-4467-b785-bc668bc184d5" />
+
 
 Use the set rhosts command to set the parameter and run the module, as follows:
 ## OUTPUT:
