@@ -107,7 +107,10 @@ set RHOSTS <metasploitable-ip-address>
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
 set BLANK_PASSWORDS true
 ## OUTPUT:
-<img width="1105" height="307" alt="Screenshot 2025-09-29 113341" src="https://github.com/user-attachments/assets/6f8b6b1f-c868-4f75-b53a-65b0f76b5371" />
+
+<img width="748" height="137" alt="image" src="https://github.com/user-attachments/assets/917e0e2c-2df9-441f-92e0-f6779bf8238d" />
+
+<img width="902" height="115" alt="image" src="https://github.com/user-attachments/assets/09a7613f-2095-4aa7-905f-8df2dac2a361" />
 
 
 ## RESULT:
