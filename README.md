@@ -93,12 +93,12 @@ use auxiliary/scanner/mysql/mysql_version
 
 Use the set rhosts command to set the parameter and run the module, as follows:
 ## OUTPUT:
-<img width="724" height="289" alt="image" src="https://github.com/user-attachments/assets/6dc2dad7-2b66-4dfd-a2d0-9e6861984147" />
+<img width="599" height="89" alt="image" src="https://github.com/user-attachments/assets/2cc1ca46-30f7-45df-b18d-6377afc02d5c" />
 
 After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
 ## OUTPUT:
 
-<img width="724" height="289" alt="Screenshot 2025-09-30 091328" src="https://github.com/user-attachments/assets/6ff2fe3b-b903-4764-ac04-185d6f08140c" />
+<img width="1079" height="406" alt="image" src="https://github.com/user-attachments/assets/c544954d-a433-4b6c-aeaa-439b049b394d" />
 
 set the PASS_FILE parameter to the wordlist path available inside /usr/share/wordlists:
 set PASS_FILE /usr/share/wordlistss/rockyou.txt
